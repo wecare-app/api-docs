@@ -83,7 +83,7 @@ Obtenha o `access_token` pelo [método de autenticação](/).
     "manager": {
       "name": "Tiago dos Santos",
       "email": "tiagodossantos@email.com",
-      "registration_id": "10010234"
+      "registration_id": "00010234"
     },
     "name": "Diego Oliveira",
     "registration_id": "10010234"
