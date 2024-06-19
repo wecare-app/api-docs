@@ -89,17 +89,15 @@ Obtenha o `access_token` pelo [método de autenticação](/).
 
 ### 401
 
-Nesse caso, verifique se o `access_token` no header `Authorization` está correto.
-
 ```json
 {
   "error": "access token expired"
 }
 ```
 
-### 404
+Nesse caso, verifique se o `access_token` no header `Authorization` está correto.
 
-Nesse caso, não existe colaborador para a chave informada.
+### 404
 
 ```json
 {
@@ -107,9 +105,9 @@ Nesse caso, não existe colaborador para a chave informada.
 }
 ```
 
-### 422
+Nesse caso, não existe colaborador para a chave informada.
 
-Nesse caso, o email informado já está cadastrado em outro colaborador.
+### 422
 
 ```json
 {
@@ -117,7 +115,7 @@ Nesse caso, o email informado já está cadastrado em outro colaborador.
 }
 ```
 
-Nesse caso, a matrícula já está cadastrada em outro colaborador.
+Nesse caso, o email informado já está cadastrado em outro colaborador.
 
 ```json
 {
@@ -125,10 +123,12 @@ Nesse caso, a matrícula já está cadastrada em outro colaborador.
 }
 ```
 
-Nesse caso, a liderança informada não está cadastrada. Realize primeiro o cadastro da liderança e torne a criar o colaborador.
+Nesse caso, a matrícula já está cadastrada em outro colaborador.
 
 ```json
 {
   "error": "leader of the user not found"
 }
 ```
+
+Nesse caso, a liderança informada não está cadastrada. Realize primeiro o cadastro da liderança e torne a criar o colaborador.
