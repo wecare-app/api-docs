@@ -91,4 +91,4 @@ Nesse caso, não existe colaborador para a chave informada.
 }
 ```
 
-Nesse caso, o colaborador não possui nenhum bloqueio programado. Primeiro [realize o bloqueio](/colaboradores/bloquear-colaborador)., para então conseguir utilizar esse método.
+Nesse caso, o colaborador não possui nenhum bloqueio programado. Primeiro [realize o bloqueio](/colaboradores/bloquear-colaborador), para então conseguir utilizar esse método.
