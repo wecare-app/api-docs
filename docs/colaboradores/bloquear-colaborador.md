@@ -38,13 +38,11 @@ Obtenha o `access_token` pelo [método de autenticação](/).
 | blocked_at    | date | Data de bloqueio no formato DD/MM/YYYY |
 | blocked_until | date | Data de bloqueio no formato DD/MM/YYYY |
 
-## Requisição
+## Requisição 1
 
-```json
-{}
-```
+A requisição não necessita de um `body`.
 
-## Resposta
+## Resposta 1
 
 ### 200
 
@@ -75,7 +73,7 @@ Obtenha o `access_token` pelo [método de autenticação](/).
 }
 ```
 
-## Requisição
+## Requisição 2
 
 ```json
 {
@@ -84,7 +82,7 @@ Obtenha o `access_token` pelo [método de autenticação](/).
 }
 ```
 
-## Resposta
+## Resposta 2
 
 ### 200
 
