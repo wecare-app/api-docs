@@ -44,8 +44,7 @@ const config = {
           sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/wecare-app/api-docs/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/wecare-app/api-docs/tree/main/",
         },
         blog: false,
         theme: {
