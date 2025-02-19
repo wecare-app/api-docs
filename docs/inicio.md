@@ -13,7 +13,7 @@ import TabItem from '@theme/TabItem';
 
 Seja bem-vindo ao WeCare Dev Center! 🚀
 
-A WeCare oferece uma API para gerenciamento de colaboradores, além de integrações com terceiros e suporte a Single Sign-On (SSO). Aqui você encontrará informações detalhadas sobre como utilizar nossos serviços de maneira eficiente e segura.
+A WeCare oferece uma API para gerenciamento de colaboradores, além de integrações com terceiros<!--e suporte a Single Sign-On (SSO)-->. Aqui você encontrará informações detalhadas sobre como utilizar nossos serviços de maneira eficiente e segura.
 
 ## O que você encontrará aqui?
 
