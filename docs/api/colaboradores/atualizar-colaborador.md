@@ -17,7 +17,7 @@ Utilize esse método para atualizar colaboradores na plataforma.
 | ------------- | ------------------- |
 | Authorization | Bearer access_token |
 
-Obtenha o `access_token` pelo [método de autenticação](/).
+Obtenha o `access_token` pelo [método de autenticação](/api/autenticacao).
 
 ## Atributos
 

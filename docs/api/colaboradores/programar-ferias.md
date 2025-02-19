@@ -17,17 +17,17 @@ Utilize esse método para programar férias para colaboradores na plataforma.
 | ------------- | ------------------- |
 | Authorization | Bearer access_token |
 
-Obtenha o `access_token` pelo [método de autenticação](/).
+Obtenha o `access_token` pelo [método de autenticação](/api/autenticacao).
 
 ## Atributos
 
 ### Obrigatórios
 
-| Atributos | Tipo   | Descrição                                                   |
-| --------- | ------ | ----------------------------------------------------------- |
-| key       | string | Chave do colaborador usada no cadastro (email ou matrícula) |
-| vacation_start | string | Data de início das férias (formato `dd/mm/aaaa`) |
-| vacation_end | string | Data de fim das férias (formato `dd/mm/aaaa`) |
+| Atributos      | Tipo   | Descrição                                                   |
+| -------------- | ------ | ----------------------------------------------------------- |
+| key            | string | Chave do colaborador usada no cadastro (email ou matrícula) |
+| vacation_start | string | Data de início das férias (formato `dd/mm/aaaa`)            |
+| vacation_end   | string | Data de fim das férias (formato `dd/mm/aaaa`)               |
 
 ## Requisição
 
@@ -91,12 +91,12 @@ Nesse caso, verifique se o `access_token` no header `Authorization` está corret
 Nesse caso, não existe colaborador para a chave informada.
 
 ### 422
-  
-  ```json
-  {
-    "error": "A data de início das férias deve ser maior ou igual a hoje"
-  }
-  ```
+
+```json
+{
+  "error": "A data de início das férias deve ser maior ou igual a hoje"
+}
+```
 
 Nesse caso, a data de início das férias deve ser maior ou igual a data atual.
 
@@ -107,4 +107,3 @@ Nesse caso, a data de início das férias deve ser maior ou igual a data atual.
 ```
 
 Nesse caso, a data de término das férias deve ser maior ou igual a data de início das férias.
-

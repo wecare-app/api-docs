@@ -1,15 +1,17 @@
 ---
-sidebar_position: 5
+sidebar_position: 9
 ---
 
-# Desbloquear colaborador
+# Desprogramar férias
 
-Utilize esse método para desbloquear colaboradores na plataforma.
+Utilize esse método para desprogramar as férias de colaboradores.
+
+O colaborador precisa ter férias programadas para esse método ser utilizado.
 
 ## Método
 
 **PATCH/PUT**
-`api/v2/users/:key/unblock`
+`api/v2/users/:key/unschedule_vacation`
 
 ## Headers
 
@@ -17,7 +19,7 @@ Utilize esse método para desbloquear colaboradores na plataforma.
 | ------------- | ------------------- |
 | Authorization | Bearer access_token |
 
-Obtenha o `access_token` pelo [método de autenticação](/).
+Obtenha o `access_token` pelo [método de autenticação](/api/autenticacao).
 
 ## Atributos
 
@@ -37,7 +39,7 @@ A requisição não necessita de um `body`.
 
 ```json
 {
-  "message": "Colaborador Diego Oliveira dos Santos desbloqueado(a)",
+  "message": "As férias de Diego Oliveira foram desprogramadas com sucesso!",
   "user": {
     "admission_date": "01/01/2022",
     "area": {
@@ -48,13 +50,13 @@ A requisição não necessita de um `body`.
     "birth_date": "01/01/2000",
     "cellphone": "61989899898",
     "email": "diegooliveira@email.com",
-    "function": "Desenvolvedor Frontend PL",
+    "function": "Desenvolvedor Backend SR",
     "manager": {
       "name": "Tiago dos Santos",
       "email": "tiagodossantos@email.com",
       "registration_id": "10010234"
     },
-    "name": "Diego Oliveira dos Santos",
+    "name": "Diego Oliveira",
     "registration_id": "10010234",
     "status": "active"
   }
@@ -85,8 +87,8 @@ Nesse caso, não existe colaborador para a chave informada.
 
 ```json
 {
-  "error": "O(A) colaborador já está desbloqueado(a)"
+  "error": "Usuário não possui férias programadas"
 }
 ```
 
-Nesse caso, o colaborador já foi desbloqueado. Primeiro [realize o bloqueio](/colaboradores/bloquear-colaborador), para então conseguir utilizar esse método.
+Nesse caso, o colaborador não possui férias programadas. Primeiro [realize a programação de férias](/colaboradores/programar-ferias) para desprogramar.

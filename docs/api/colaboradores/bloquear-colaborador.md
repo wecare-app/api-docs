@@ -21,7 +21,7 @@ Caso não especifique uma data, o colaborador será bloqueado imediatamente.
 | ------------- | ------------------- |
 | Authorization | Bearer access_token |
 
-Obtenha o `access_token` pelo [método de autenticação](/).
+Obtenha o `access_token` pelo [método de autenticação](/api/autenticacao).
 
 ## Atributos
 

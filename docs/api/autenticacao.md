@@ -1,6 +1,6 @@
 ---
-slug: /
-sidebar_position: 1
+slug: /api/autenticacao
+sidebar_position: 2
 ---
 
 # Autenticação

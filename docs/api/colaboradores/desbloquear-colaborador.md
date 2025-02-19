@@ -1,17 +1,15 @@
 ---
-sidebar_position: 10
+sidebar_position: 5
 ---
 
-# Desprogramar licença
+# Desbloquear colaborador
 
-Utilize esse método para desprogramar a licença de colaboradores.
-
-O colaborador precisa ter licença programada para esse método ser utilizado.
+Utilize esse método para desbloquear colaboradores na plataforma.
 
 ## Método
 
 **PATCH/PUT**
-`api/v2/users/:key/unschedule_work_leave`
+`api/v2/users/:key/unblock`
 
 ## Headers
 
@@ -19,7 +17,7 @@ O colaborador precisa ter licença programada para esse método ser utilizado.
 | ------------- | ------------------- |
 | Authorization | Bearer access_token |
 
-Obtenha o `access_token` pelo [método de autenticação](/).
+Obtenha o `access_token` pelo [método de autenticação](/api/autenticacao).
 
 ## Atributos
 
@@ -39,27 +37,27 @@ A requisição não necessita de um `body`.
 
 ```json
 {
-	"message": "A licença de Diego Oliveira foi desprogramada com sucesso!",
-	"user": {
-		"admission_date": "01/01/2022",
-		"area": {
-			"level_1": "Produto",
-			"level_2": "Desenvolvimento",
-			"level_3": "Frontend"
-		},
-		"birth_date": "01/01/2000",
-		"cellphone": "61989899898",
-		"email": "diegooliveira@email.com",
-		"function": "Desenvolvedor Backend SR",
+  "message": "Colaborador Diego Oliveira dos Santos desbloqueado(a)",
+  "user": {
+    "admission_date": "01/01/2022",
+    "area": {
+      "level_1": "Produto",
+      "level_2": "Desenvolvimento",
+      "level_3": "Frontend"
+    },
+    "birth_date": "01/01/2000",
+    "cellphone": "61989899898",
+    "email": "diegooliveira@email.com",
+    "function": "Desenvolvedor Frontend PL",
     "manager": {
       "name": "Tiago dos Santos",
       "email": "tiagodossantos@email.com",
       "registration_id": "10010234"
     },
-		"name": "Diego Oliveira",
-		"registration_id": "10010234",
-		"status": "active"
-	}
+    "name": "Diego Oliveira dos Santos",
+    "registration_id": "10010234",
+    "status": "active"
+  }
 }
 ```
 
@@ -87,8 +85,8 @@ Nesse caso, não existe colaborador para a chave informada.
 
 ```json
 {
-  "error": "Usuário não possui licença programada"
+  "error": "O(A) colaborador já está desbloqueado(a)"
 }
 ```
 
-Nesse caso, o colaborador não possui licença programada. Primeiro [realize a programação de licença](/colaboradores/programar-licenca) para desprogramar.
+Nesse caso, o colaborador já foi desbloqueado. Primeiro [realize o bloqueio](/colaboradores/bloquear-colaborador), para então conseguir utilizar esse método.
