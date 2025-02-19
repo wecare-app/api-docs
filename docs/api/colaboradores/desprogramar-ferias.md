@@ -91,4 +91,4 @@ Nesse caso, não existe colaborador para a chave informada.
 }
 ```
 
-Nesse caso, o colaborador não possui férias programadas. Primeiro [realize a programação de férias](/colaboradores/programar-ferias) para desprogramar.
+Nesse caso, o colaborador não possui férias programadas. Primeiro [realize a programação de férias](/api/colaboradores/programar-ferias) para desprogramar.

@@ -109,7 +109,7 @@ Nesse caso, verifique se o `access_token` no header `Authorization` está corret
 }
 ```
 
-Nesse caso, o colaborador já foi cadastro. Atualize seu cadastro utilizando o método [Atualizar colaborador](/colaboradores/atualizar-colaborador).
+Nesse caso, o colaborador já foi cadastro. Atualize seu cadastro utilizando o método [Atualizar colaborador](/api/colaboradores/atualizar-colaborador).
 
 ```json
 {

@@ -91,4 +91,4 @@ Nesse caso, não existe colaborador para a chave informada.
 }
 ```
 
-Nesse caso, o colaborador não possui licença programada. Primeiro [realize a programação de licença](/colaboradores/programar-licenca) para desprogramar.
+Nesse caso, o colaborador não possui licença programada. Primeiro [realize a programação de licença](/api/colaboradores/programar-licenca) para desprogramar.

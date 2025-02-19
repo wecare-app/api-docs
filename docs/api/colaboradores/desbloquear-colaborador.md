@@ -89,4 +89,4 @@ Nesse caso, não existe colaborador para a chave informada.
 }
 ```
 
-Nesse caso, o colaborador já foi desbloqueado. Primeiro [realize o bloqueio](/colaboradores/bloquear-colaborador), para então conseguir utilizar esse método.
+Nesse caso, o colaborador já foi desbloqueado. Primeiro [realize o bloqueio](/api/colaboradores/bloquear-colaborador), para então conseguir utilizar esse método.
