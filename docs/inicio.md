@@ -13,7 +13,7 @@ import TabItem from '@theme/TabItem';
 
 Seja bem-vindo ao WeCare Dev Center! 🚀
 
-A WeCare oferece uma API para gerenciamento de colaboradores, além de integrações com terceiros<!--e suporte a Single Sign-On (SSO)-->. Aqui você encontrará informações detalhadas sobre como utilizar nossos serviços de maneira eficiente e segura.
+A WeCare oferece uma API para gerenciamento de colaboradores, além de integrações com terceiros e suporte a Single Sign-On (SSO). Aqui você encontrará informações detalhadas sobre como utilizar nossos serviços de maneira eficiente e segura.
 
 ---
 
@@ -41,6 +41,12 @@ A WeCare oferece uma API para gerenciamento de colaboradores, além de integraç
     
     <a href="/sso" class="button button--primary">Acessar Configurações de SSO</a>
   </TabItem>
+
+  <TabItem value="email" label="📧 Liberação de Email">
+    Libere o IP de envio de emails da WeCare para evitar problemas de bloqueios de notificações.
+    
+    <a href="/email" class="button button--primary">Acessar Liberação de Email</a>
+  </TabItem>
 </Tabs>
 
 ---
@@ -50,5 +56,6 @@ A WeCare oferece uma API para gerenciamento de colaboradores, além de integraç
 - Se você deseja integrar sua empresa com a **API de Colaboradores**, veja nossa seção de [APIs](/api).
 - Para configurar uma integração com nossos bots de notificações, confira [Integrações](/integracoes).
 - Caso precise configurar o **SSO**, veja as instruções detalhadas em [Single Sign On (SSO)](/sso).
+- Caso esteja com problemas de recebimento de emails, veja as instruções em [Liberação de Email](/email).
 
 Caso tenha dúvidas ou precise de suporte, entre em contato com nossa equipe técnica por meio do e-mail: [ti@sejawecare.com.br](mailto:ti@sejawecare.com.br)
