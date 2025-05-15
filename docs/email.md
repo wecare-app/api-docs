@@ -8,7 +8,7 @@ sidebar_position: 5
 
 # Liberação de Email
 
-A WeCare utiliza o serviço da SendGrid para o envio de notificações por email aos seus clientes e colaboradores. Para garantir a entrega adequada das mensagens, é importante que nosso endereço IP de envio seja liberado (adicionado à whitelist) nas ferramentas de filtragem de emails dos destinatários.
+A WeCare utiliza o serviço da Twilio SendGrid para o envio de notificações por email aos seus clientes e colaboradores. Para garantir a entrega adequada das mensagens, é importante que nosso endereço IP de envio seja liberado (adicionado à whitelist) nas ferramentas de filtragem de emails dos destinatários.
 
 ## Por que liberar o IP?
 
