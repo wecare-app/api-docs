@@ -60,20 +60,15 @@ const config = {
       // Replace with your project's social card
       navbar: {
         title: "WeCare Dev Center",
-        logo: {
-          alt: "WeCare Dev Center",
-          src: "img/logo.png",
-        },
         items: [
-          {
-            type: "docSidebar",
-            sidebarId: "tutorialSidebar",
-            position: "left",
-            label: "APIs",
-          },
           {
             href: "https://www.sejawecare.com.br",
             label: "Site da WeCare",
+            position: "right",
+          },
+          {
+            href: "https://status.wecare.app.br",
+            label: "Status do Serviço",
             position: "right",
           },
         ],

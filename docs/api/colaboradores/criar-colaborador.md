@@ -134,3 +134,27 @@ Nesse caso, a matrícula é obrigatória por ser a chave.
 ```
 
 Nesse caso, a liderança informada não está cadastrada. Realize primeiro o cadastro da liderança e torne a criar o colaborador.
+
+## Envio em lote
+
+:::info[Disponibilidade da funcionalidade]
+O envio em lote está disponível, no momento, apenas para o ambiente de Homologação da WeCare.
+:::
+
+Para criar mais de um colaborador por vez, realize a requisição dessa forma:
+
+```json
+{
+  "users": [
+    {
+      "user": {
+        // parâmetros de user
+      },
+      "user": {
+        // parâmetros de user
+      },
+      ...
+    }
+  ]
+}
+```

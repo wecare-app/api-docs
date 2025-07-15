@@ -132,3 +132,32 @@ Nesse caso, a matrícula já está cadastrada em outro colaborador.
 ```
 
 Nesse caso, a liderança informada não está cadastrada. Realize primeiro o cadastro da liderança e torne a criar o colaborador.
+
+## Envio em lote
+
+:::info[Disponibilidade da funcionalidade]
+O envio em lote está disponível, no momento, apenas para o ambiente de Homologação da WeCare.
+:::
+
+Para atualizar mais de um colaborador por vez, realize a requisição dessa forma:
+
+```json
+{
+  "users": [
+    {
+      "key": {
+        // parâmetros de user
+      },
+      "key": {
+        // parâmetros de user
+      },
+      ...
+    }
+  ]
+}
+```
+
+Não envie o parâmetro `key` na URL do endpoint. Use o endpoint abaixo:
+
+**PATCH/PUT**
+`api/v2/users`
