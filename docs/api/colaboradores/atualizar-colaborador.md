@@ -148,11 +148,13 @@ Para atualizar mais de um colaborador por vez, realize a requisição dessa form
       "key": {
         // parâmetros de user
       },
+    },
+    {
       "key": {
         // parâmetros de user
-      },
-      ...
-    }
+      }
+    },
+    ...
   ]
 }
 ```
