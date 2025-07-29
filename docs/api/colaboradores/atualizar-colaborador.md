@@ -33,7 +33,7 @@ Obtenha o `access_token` pelo [método de autenticação](/api/autenticacao).
 | -------------- | ------ | -------------------------------------------------------------------------- |
 | name           | string | Nome do colaborador                                                        |
 | email          | string | Email do colaborador, obrigatório somente se a matrícula não for informada |
-| matricula      | string | Matrícula do colaborador, obrigatória somente se o email não for informado |
+| registration_id| string | Matrícula do colaborador, obrigatória somente se o email não for informado |
 | manager        | string | Email ou matrícula do gestor do colaborador                                |
 | cellphone      | string | Número de telefone celular do colaborador, incluindo o DDD                 |
 | birth_date     | date   | Data de nascimento do colaborador no formato DD/MM/YYYY                    |
