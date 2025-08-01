@@ -27,7 +27,7 @@ Obtenha o `access_token` pelo [método de autenticação](/api/autenticacao).
 | --------- | ------ | -------------------------------------------------------------------------- |
 | name      | string | Nome do colaborador                                                        |
 | email     | string | Email do colaborador, obrigatório somente se a matrícula não for informada |
-| matricula | string | Matrícula do colaborador, obrigatória somente se o email não for informado |
+| registration_id | string | Matrícula do colaborador, obrigatória somente se o email não for informado |
 
 ### Opcionais
 
