@@ -10,7 +10,7 @@ A WeCare disponibiliza um bot para notificações em conversas privadas no Micro
 
 ### Solicitar os arquivos para a WeCare
 
-Solicite os arquivos do aplicativo **WeCare Bot** para a equipe técnica da WeCare, através do email [ti@sejawecare.com.br](mailto:ti@sejawecare.com.br).
+Solicite os arquivos do aplicativo **WeCare Bot** para a equipe técnica da WeCare, através [desse link da Zendesk](https://sejawecare.zendesk.com/hc/pt-br/requests/new).
 
 Você receberá um arquivo `.zip` com os seguintes arquivos:
 
