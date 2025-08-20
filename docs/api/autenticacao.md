@@ -38,7 +38,7 @@ Utilize o `access_token` no header `Authorization` nas próximas requisições.
 
 ```json
 {
-  "acccess_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhNWZjOGIxZS1kYzFiLTRhMTktYmQxNC04OWZkZjUxYjJlOWYiLCJleHAiOjE3MTcwMTA2ODUsImlhdCI6MTcxNzAwMzQ4NSwidXVpZCI6IjE1ZDMzY2E1LWM1N2UtNDc0Ni1hNWQzLWEwYTNjNGIzMmUzYSJ9.Kfgo9d6XEAE--AAt0w5i5Mz2NJG0lF0CVouf1dC_o7Q"
+  "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhNWZjOGIxZS1kYzFiLTRhMTktYmQxNC04OWZkZjUxYjJlOWYiLCJleHAiOjE3MTcwMTA2ODUsImlhdCI6MTcxNzAwMzQ4NSwidXVpZCI6IjE1ZDMzY2E1LWM1N2UtNDc0Ni1hNWQzLWEwYTNjNGIzMmUzYSJ9.Kfgo9d6XEAE--AAt0w5i5Mz2NJG0lF0CVouf1dC_o7Q"
 }
 ```
 
