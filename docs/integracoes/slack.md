@@ -53,7 +53,7 @@ Nessa etapa, copie e cole o JSON abaixo e clique no botão **Next**.
   "settings": {
     "interactivity": {
       "is_enabled": true,
-      "request_url": "https://www.wecare.aplicativo.br/slack/webhook"
+      "request_url": "https://www.wecare.app.br/slack/webhook"
     },
     "org_deploy_enabled": false,
     "socket_mode_enabled": false,
