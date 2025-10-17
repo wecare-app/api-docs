@@ -1,11 +1,11 @@
 ---
 sidebar_position: 3
-title: Ver likes
+title: Ver curtidas
 ---
 
-# Ver likes de reconhecimentos
+# Ver curtidas de reconhecimentos
 
-Utilize esse método para buscar e visualizar os likes dados aos reconhecimentos dos colaboradores na plataforma.
+Utilize esse método para buscar e visualizar as curtidas dados aos reconhecimentos dos colaboradores na plataforma.
 
 ## Método
 
@@ -26,28 +26,28 @@ Obtenha o `access_token` pelo [método de autenticação](/api/autenticacao).
 
 | Parâmetro      | Tipo   | Descrição                                                  |
 | -------------- | ------ | ---------------------------------------------------------- |
-| start_date     | date   | Data inicial para filtrar likes (padrão é início do mês atual) |
-| end_date       | date   | Data final para filtrar likes (padrão é fim do mês atual) |
+| start_date     | date   | Data inicial para filtrar curtidas (padrão é início do mês atual) |
+| end_date       | date   | Data final para filtrar curtidas (padrão é fim do mês atual) |
 | sender         | string | `email` ou `registration_id` do colaborador que enviou o reconhecimento |
 | receiver       | string | `email` ou `registration_id` do colaborador que recebeu o reconhecimento |
-| liker          | string | `email` ou `registration_id` do colaborador que deu o like |
-| user_group_uuid| string | `uuid` do grupo de usuários para filtrar likes. Consulte a [lista de grupos](/api/grupos-de-usuarios/ver-grupos) para obter os UUIDs disponíveis |
+| liker          | string | `email` ou `registration_id` do colaborador que deu a curtida |
+| user_group_uuid| string | `uuid` do grupo de usuários para filtrar curtidas. Consulte a [lista de grupos](/api/grupos-de-usuarios/ver-grupos) para obter os UUIDs disponíveis |
 
 ## Exemplo de Requisição
 
-Para buscar likes com filtros:
+Para buscar curtidas com filtros:
 
 ```
 GET api/v2/recognitions/likes?start_date=01-01-2024&end_date=31-01-2024&liker=joao.silva@empresa.com
 ```
 
-Para buscar likes por grupo de usuários:
+Para buscar curtidas por grupo de usuários:
 
 ```
 GET api/v2/recognitions/likes?start_date=01-01-2025&end_date=31-12-2025&user_group_uuid=11111111-2222-3333-4444-555555555555
 ```
 
-Para buscar todos os likes:
+Para buscar todos as curtidas:
 
 ```
 GET api/v2/recognitions/likes
@@ -305,7 +305,7 @@ Nesse caso, verifique se o email ou registration_id do destinatário está corre
 }
 ```
 
-Nesse caso, verifique se o email ou registration_id do usuário que deu o like está correto e existe no sistema.
+Nesse caso, verifique se o email ou registration_id do usuário que deu a curtida está correto e existe no sistema.
 
 ```json
 {
