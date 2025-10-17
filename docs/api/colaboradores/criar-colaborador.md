@@ -137,10 +137,6 @@ Nesse caso, a liderança informada não está cadastrada. Realize primeiro o cad
 
 ## Envio em lote
 
-:::info[Disponibilidade da funcionalidade]
-O envio em lote está disponível, no momento, apenas para o ambiente de Homologação da WeCare.
-:::
-
 Para criar mais de um colaborador por vez, realize a requisição dessa forma:
 
 ```json
