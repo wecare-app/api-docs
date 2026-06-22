@@ -3,7 +3,7 @@ id: microsoft_outlook
 title: Microsoft Outlook
 description: Como configurar integração de Outlook via Microsoft Entra para sincronização de agendas com a WeCare
 slug: /integracoes/microsoft_outlook
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 # Microsoft Outlook

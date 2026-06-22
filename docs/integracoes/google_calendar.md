@@ -3,7 +3,7 @@ id: google_calendar
 title: Google Calendar
 description: Como configurar integração de Google Calendar para sincronização de agendas com a WeCare
 slug: /integracoes/google_calendar
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # Google Calendar
